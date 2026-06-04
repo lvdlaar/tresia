@@ -42,8 +42,6 @@ html {
 .contentblok.fotoslider {
     position: relative;
     padding: 100px 0 50px;
-    background: rgb(229,237,216);
-    background: linear-gradient(180deg, rgba(229,237,216,1) 0%, rgba(229,237,216,1) 50%, rgba(205,217,186,1) 50%, rgba(205,217,186,1) 100%);
 }
 .slider_container {
     position: relative;
