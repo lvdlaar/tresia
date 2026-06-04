@@ -1,0 +1,100 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+/*
+2. Remove default margin
+*/
+* {
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.btn {
+    letter-spacing: 0;
+    border-radius: 0; 
+    font-size: 25px;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl,
+.row {
+    --bs-gutter-x: 30px;
+}
+.page-section {
+    position: relative;
+    z-index: 1;
+}
+
+:root {
+    --container: 1610px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+/* Fotoslider */
+.contentblok.fotoslider {
+    position: relative;
+    padding: 100px 0 50px;
+    background: rgb(229,237,216);
+    background: linear-gradient(180deg, rgba(229,237,216,1) 0%, rgba(229,237,216,1) 50%, rgba(205,217,186,1) 50%, rgba(205,217,186,1) 100%);
+}
+.slider_container {
+    position: relative;
+    width: 100%;
+    --col: calc(var(--container) / 12); 
+    --ruimte: calc((100% - var(--container)) / 2);
+    width: 100%;
+    padding-left: calc((3 * var(--col)) + var(--ruimte)); 
+}
+.slider_controls {
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    padding: 0;
+    margin-left: -200px;
+    column-gap: 40px;
+}
+.swiper-button-next, .swiper-button-prev { 
+    position: relative;
+    display: block;
+    float: none;
+    top: initial;
+    margin: initial;
+    right: initial;
+    left: initial;
+}
+.swiper-slide {
+    position: relative;
+    cursor: grab;
+}
+.swiper-slide span {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper-button-prev:after, .swiper-button-next:after {
+    display: none;
+}
+.swiper-button-next polygon, .swiper-button-prev polygon {
+    fill: #2B2E34;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.swiper-button-next:hover polygon, .swiper-button-prev:hover polygon {
+    fill: #E93700;
+}
+
