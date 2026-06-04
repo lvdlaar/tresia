@@ -88,11 +88,11 @@ html {
     display: none;
 }
 .swiper-button-next polygon, .swiper-button-prev polygon {
-    fill: #2B2E34;
+    fill: #ffffff;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 }
 .swiper-button-next:hover polygon, .swiper-button-prev:hover polygon {
-    fill: #E93700;
+    fill: #e4c3b7;
 }
 
