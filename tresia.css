@@ -96,3 +96,9 @@ html {
     fill: #e4c3b7;
 }
 
+
+
+.page-section.page-section-imagetextfullwidth {
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+}
