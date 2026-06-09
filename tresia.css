@@ -42,6 +42,7 @@ html {
 .contentblok.fotoslider {
     position: relative;
     padding: 100px 0 50px;
+    background-color: #e4c3b7;
 }
 .slider_container {
     position: relative;
