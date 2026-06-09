@@ -109,13 +109,7 @@ h5 {
     fill: #e4c3b7;
 }
 
-
-
 .page-section.page-section-imagetextfullwidth {
     padding-top: 4vw;
     padding-bottom: 4vw;
-}
-
-.page-section.page-section-imagetextfullwidth .cb-livestyle-content.aspect-ratio-1-1, .page-section.page-section-imagetextfullwidth .cb-livestyle-image.aspect-ratio-1-1 {
-    min-height: 1vw;
 }
