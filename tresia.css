@@ -98,7 +98,7 @@ html {
 
 
 
-.page-section.page-section-imagetextfullwidth {
+.page-section.page-section-imagetextfullwidth.page-section-before-imagetextfullwidth.page-section-after-imagetextfullwidth {
     margin-top: 4vw;
     margin-bottom: 4vw;
 }
