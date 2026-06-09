@@ -35,6 +35,13 @@ html {
     scroll-behavior: smooth;
 }
 
+h1 {
+    font-size: 5em;
+    font-weight: 600;    
+}
+h5 {
+    margin-bottom: 0;    
+}
 
 
 
@@ -47,7 +54,7 @@ html {
 .slider_container {
     position: relative;
     width: 100%;
-    --col: calc(var(--container) / 12); 
+    --col: calc(var(--container) / 11); 
     --ruimte: calc((100% - var(--container)) / 2);
     width: 100%;
     padding-left: calc((3 * var(--col)) + var(--ruimte)); 
@@ -68,6 +75,11 @@ html {
     margin: initial;
     right: initial;
     left: initial;
+}
+
+.swiper-button-prev svg path,
+.swiper-button-next svg path {
+    fill: #fff;
 }
 .swiper-slide {
     position: relative;
@@ -102,4 +114,8 @@ html {
 .page-section.page-section-imagetextfullwidth {
     padding-top: 4vw;
     padding-bottom: 4vw;
+}
+
+.page-section.page-section-imagetextfullwidth .cb-livestyle-content.aspect-ratio-1-1, .page-section.page-section-imagetextfullwidth .cb-livestyle-image.aspect-ratio-1-1 {
+    min-height: 1vw;
 }
