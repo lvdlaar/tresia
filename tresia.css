@@ -124,6 +124,9 @@ h5 {
     padding-top: 0 !important;
 }
 
+.d-flex {
+    display: flex !important;
+}
 .logos_contact {
     gap: 20px;
     align-items: flex-end;
