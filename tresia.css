@@ -43,12 +43,18 @@ h5 {
     margin-bottom: 0;    
 }
 
+@media (max-width: 480px) {
+    h1 {
+        font-size: 3em;
+    }
+}
+
 
 
 /* Fotoslider */
 .contentblok.fotoslider {
     position: relative;
-    padding: 100px 0 50px;
+    padding: 100px 0 0;
     background-color: #e4c3b7;
 }
 .slider_container {
@@ -112,4 +118,20 @@ h5 {
 .page-section.page-section-imagetextfullwidth {
     padding-top: 4vw;
     padding-bottom: 4vw;
+}
+
+#52140_hightlightsbrspan_stylecolor_blackbspoorzonebspan {
+    padding-top: 0 !important;
+}
+
+.logos_contact {
+    gap: 20px;
+    align-items: flex-end;
+}
+.logos_contact img {
+    width: 50%;
+    max-width: 155px;
+}
+.logos_contact br {
+    display: none;
 }
