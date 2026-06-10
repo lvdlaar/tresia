@@ -18,6 +18,25 @@ img {
     letter-spacing: 0;
     border-radius: 0; 
     font-size: 20px;
+    padding: 10px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+}
+.btn::after {
+    content: "";
+    width: 1.1em;
+    aspect-ratio: 1 / 1;
+    flex-shrink: 0;
+    background-color: currentColor;
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='black'%3E%3Cpath d='M7 17 17 7M9 7h8v8' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-size: contain;
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='black'%3E%3Cpath d='M7 17 17 7M9 7h8v8' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E");
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: contain;
 }
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl,
 .row {
@@ -138,3 +157,4 @@ h5 {
 .logos_contact br {
     display: none;
 }
+
